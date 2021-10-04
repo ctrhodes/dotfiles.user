@@ -1,7 +1,7 @@
 # dotfiles
 dotfiles, based on daler/dotfiles 
 
-This adds my preferences on top of Ryan Dale's dotfiles setup, [(see here)](https://github.com/daler/dotfiles). To use, follow "Option 1: Use everything" in daler/dotfiles documentation.
+This adds my preferences on top of Ryan Dale's dotfiles setup, [(see here)](https://github.com/daler/dotfiles) for install instructions. To use, follow "Option 1: Use everything" in daler/dotfiles documentation.
 
 After a full setup of dotfiles, clone this repo
 ```
