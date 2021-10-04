@@ -10,6 +10,7 @@ git clone https://github.com/ctrhodes/dotfiles.git
 
 Replace vim and tmux files with the included verions:
 ```
+cd dotfiles.user
 cp .vim ~/
 cp .tmux* ~/
 ```
@@ -25,6 +26,5 @@ I sometimes like using Spyder IDE for python coding, but the stand-alone install
 
 To create an anaconda env:
 ```
-cd dotfiles.user
 bash anaconda-navigator.sh
 ```
