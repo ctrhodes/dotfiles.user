@@ -11,7 +11,7 @@ git clone https://github.com/ctrhodes/dotfiles.git
 Replace vim and tmux files with the included verions:
 ```
 cd dotfiles.user
-cp .vim ~/
+cp init.vim ~/.config/nvim/
 cp .tmux* ~/
 ```
 
