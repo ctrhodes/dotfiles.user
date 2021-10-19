@@ -28,3 +28,6 @@ To create an anaconda env:
 ```
 bash anaconda-navigator.sh
 ```
+
+If using R, install 'lintR' package to default library location.
+
