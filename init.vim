@@ -360,7 +360,7 @@ autocmd FileType rmd colorscheme vibrantink
 autocmd FileType python colorscheme darkburn
 autocmd FileType snakemake colorscheme codedark
 autocmd FileType sh colorscheme gruvbox
-autocmd FileType swarm colorscheme gruvbox
+
 
 " ----------------------------------------------------------------------------
 " In R, disable parenthesis indentation
