@@ -6,5 +6,5 @@ conda install -n anaconda anaconda-navigator
 
 # osx
 # add following to user's /Applications/ folder:
-# ~/miniconda3/envs/anaconda/Anaconda-Navigator.app
+# cp ~/miniconda3/envs/anaconda/Anaconda-Navigator.app /Applications/
 
