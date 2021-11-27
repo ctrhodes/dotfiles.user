@@ -32,7 +32,14 @@ Add a user-specific profile for osx terminal:
 cp Pro.user.terminal ~/
 ```
 
-After importing the profile by opening a terminal and navigating to Preferences > Profile > Settings > Import, select the Pro.user.terminal profile. Selecting this profile in the left pane of the Preferences > Profile tab, click "Default" at the bottom of the pane. Following restart of terminal, you should now have a nice terminal profile that plays well with my preferred vim colorschemes and powerline.
+Importing the terminal profile:
+
+Open a terminal and navigate to Preferences > Profile > Settings > Import, select the Pro.user.terminal profile. Select this profile in the left pane of the Preferences > Profile tab, click "Default" at the bottom of the panel and restart of terminal.
+You should now have a nice terminal profile that plays well with my preferred vim colorschemes and powerline.
+
+Also, set a Powerline compatable font:
+
+Preferences > Text > Font: "DejaVu Sans Mono for Powerline 12 pt."
 
 
 Add anaconda navigator env:
