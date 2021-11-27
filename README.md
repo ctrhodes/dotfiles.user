@@ -21,10 +21,10 @@ cp init.vim ~/.config/nvim/
 
 Copy hidden config files:
 ```
-for f in ".aliases .bash_prompt .tmux.conf .tmuxline.conf"
-do
-cp $f ~/
+for file in .{aliases,bash_prompt,tmux.conf,tmuxline.conf}; do
+    cp $file ~/
 done
+unset file;
 ```
 
 Add a user-specific profile for osx terminal:
