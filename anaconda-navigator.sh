@@ -2,9 +2,9 @@
 
 # assumes miniconda has already been installed
 conda activate base
-conda install -n anaconda anaconda-navigator
+mamba create -n anaconda anaconda-navigator
 
-# osx
-# add following to user's /Applications/ folder:
-# cp ~/miniconda3/envs/anaconda/Anaconda-Navigator.app /Applications/
-
+# OSX, add following to user's /Applications/ folder:
+if [[ $OSTYPE == darwin* ]]; then
+    ln -s ~/miniconda3/envs/anaconda/Anaconda-Navigator.app /Applications/
+fi
