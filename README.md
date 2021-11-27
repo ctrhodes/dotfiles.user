@@ -8,16 +8,19 @@ After a full setup of dotfiles, clone this repo
 git clone https://github.com/ctrhodes/dotfiles.git
 ```
 
-Replace vim and tmux files with the included verions:
+Replace init and config files with personal verions:
 ```
 cd dotfiles.user
 cp init.vim ~/.config/nvim/
-cp .tmux* ~/
+for f in ".aliases .bash_prompt .tmux.conf .tmuxline.conf"
+do
+cp $f ~/
+done
 ```
 
 Add a user-specific profile for osx terminal:
 ```
-cp .terminal ~/
+cp Pro.user.terminal ~/
 ```
 
 After importing the profile by opening a terminal and navigating to Preferences > Profile > Settings > Import, select the Pro.user.terminal profile. Selecting this profile in the left pane of the Preferences > Profile tab, click "Default" at the bottom of the pane. Following restart of terminal, you should now have a nice terminal profile that plays well with my preferred vim colorschemes and powerline.
