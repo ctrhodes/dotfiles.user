@@ -9,9 +9,18 @@ git clone https://github.com/ctrhodes/dotfiles.git
 ```
 
 Replace init and config files with personal verions:
+Move into the cloned directory:
 ```
 cd dotfiles.user
+```
+
+Copy vim init file:
+```
 cp init.vim ~/.config/nvim/
+```
+
+Copy hidden config files:
+```
 for f in ".aliases .bash_prompt .tmux.conf .tmuxline.conf"
 do
 cp $f ~/
@@ -25,6 +34,7 @@ cp Pro.user.terminal ~/
 
 After importing the profile by opening a terminal and navigating to Preferences > Profile > Settings > Import, select the Pro.user.terminal profile. Selecting this profile in the left pane of the Preferences > Profile tab, click "Default" at the bottom of the pane. Following restart of terminal, you should now have a nice terminal profile that plays well with my preferred vim colorschemes and powerline.
 
+Add anaconda navigator env:
 I sometimes like using Spyder IDE for python coding, but the stand-alone installation can be problematic with my laptop. Since miniconda has already been installed using daler/dotfiles, we can add a new conda environment containing the Anaconda Navigator which is shipped with Spyder.
 
 To create an anaconda env:
