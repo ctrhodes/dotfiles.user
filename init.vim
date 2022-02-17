@@ -55,7 +55,7 @@ set expandtab     " <Tab> inserts spaces, not '\t'
 " ----------------------------------------------------------------------------
 " Visual display settings
 " ----------------------------------------------------------------------------
-colorscheme twilight256              " colorscheme to use
+colorscheme darkburn             " colorscheme to use
 set scrolloff=3                  " keep some lines above and below the cursor to keep context visible
 set list                         " show non-printing chars
 set showmatch                    " show matching parentheses
@@ -357,9 +357,7 @@ let g:tmuxline_preset = 'nightly_fox'
 " ----------------------------------------------------------------------------
 autocmd FileType r colorscheme vibrantink
 autocmd FileType rmd colorscheme vibrantink
-autocmd FileType python colorscheme darkburn
 autocmd FileType snakemake colorscheme codedark
-autocmd FileType sh colorscheme gruvbox
 
 
 " ----------------------------------------------------------------------------
