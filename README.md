@@ -41,6 +41,10 @@ Also, set a Powerline compatable font:
 
 Preferences > Text > Font: "DejaVu Sans Mono for Powerline 12 pt."
 
+Add coreutils for consistent behvarior across systems (temp fix):
+```
+bash coreutils.sh
+```
 
 Add anaconda navigator env:
 
