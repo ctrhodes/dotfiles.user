@@ -41,7 +41,7 @@ Also, set a Powerline compatable font:
 
 Preferences > Text > Font: "DejaVu Sans Mono for Powerline 12 pt."
 
-Add coreutils for consistent behvarior across systems (temp fix):
+Add coreutils for consistent behvarior across systems. This is temp fix, might be better handled by installing coreutils in non-base conda env, link coreutils env to /opt/bin, and updating ~/.bashrc to look for /opt/bin/coreutils dir:
 ```
 bash coreutils.sh
 ```
