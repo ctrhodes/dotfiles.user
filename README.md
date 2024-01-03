@@ -25,6 +25,11 @@ alias ll='ls -lh'    # from alias ll='ls -lrth'
 alias la='ls -lhA'    # from alias la='ls -lrthA'
 ```
 
+Update ~/.bash_prompt PS1 base base
+```
+export PS1="\u@\[$(tput sgr0)\]\[\033[0;32m\]\h\[$(tput sgr0)\]:\w\\$ "    # from export PS1="\u@\h:\w\\$ "
+```
+
 Importing the terminal profile:
 
 Open a terminal and navigate to Preferences > Profile > Settings > Import, select the Pro.user.terminal profile. Select this profile in the left pane of the Preferences > Profile tab, click "Default" at the bottom of the panel and restart of terminal.
