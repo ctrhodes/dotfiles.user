@@ -5,7 +5,7 @@ This adds my preferences on top of Ryan Dale's dotfiles setup, [(see here)](http
 
 After a full setup of dotfiles, clone this repo
 ```
-git clone https://github.com/ctrhodes/dotfiles.git
+git clone https://github.com/daler/dotfiles.git
 ```
 
 Replace init and config files with personal verions:
