@@ -14,19 +14,6 @@ Move into the cloned directory:
 cd dotfiles.user
 ```
 
-Copy vim init file:
-```
-cp init.vim ~/.config/nvim/
-```
-
-Copy hidden config files:
-```
-for file in .{aliases,bash_prompt,tmux.conf,tmuxline.conf}; do
-    cp $file ~/
-done
-unset file;
-```
-
 Add a user-specific profile for osx terminal:
 ```
 cp Pro.user.terminal ~/
