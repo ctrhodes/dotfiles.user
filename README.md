@@ -19,6 +19,12 @@ Add a user-specific profile for osx terminal:
 cp Pro.user.terminal ~/
 ```
 
+Update ~/.aliases ls behavior a bit
+```
+alias ll='ls -lh'    # from alias ll='ls -lrth'
+alias la='ls -lhA'    # from alias la='ls -lrthA'
+```
+
 Importing the terminal profile:
 
 Open a terminal and navigate to Preferences > Profile > Settings > Import, select the Pro.user.terminal profile. Select this profile in the left pane of the Preferences > Profile tab, click "Default" at the bottom of the panel and restart of terminal.
