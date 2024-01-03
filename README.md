@@ -27,7 +27,8 @@ alias la='ls -lhA'    # from alias la='ls -lrthA'
 
 Update ~/.bash_prompt PS1 base base
 ```
-export PS1="\u@\[$(tput sgr0)\]\[\033[0;32m\]\h\[$(tput sgr0)\]:\w\\$ "    # from export PS1="\u@\h:\w\\$ "
+# from export PS1="\u@\h:\w\\$ "
+export PS1="\u@\[$(tput sgr0)\]\[\033[0;32m\]\h\[$(tput sgr0)\]:\w\\$ "
 ```
 
 Importing the terminal profile:
