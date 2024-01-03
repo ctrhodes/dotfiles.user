@@ -6,5 +6,5 @@ mamba create -n anaconda anaconda-navigator
 
 # OSX, add following to user's /Applications/ folder:
 if [[ $OSTYPE == darwin* ]]; then
-    ln -s ~/miniconda3/envs/anaconda/Anaconda-Navigator.app /Applications/
+    ln -sf ~/miniconda3/envs/anaconda/Anaconda-Navigator.app /Applications/
 fi
