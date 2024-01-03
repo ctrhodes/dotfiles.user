@@ -3,21 +3,7 @@ dotfiles, based on daler/dotfiles
 
 This adds my preferences on top of Ryan Dale's dotfiles setup, [(see here)](https://github.com/daler/dotfiles) for install instructions. To use, follow "Option 1: Use everything" in daler/dotfiles documentation.
 
-After a full setup of dotfiles, clone this repo
-```
-git clone https://github.com/rhodesch/dotfiles.user.git
-```
-
-Replace init and config files with personal verions:
-Move into the cloned directory:
-```
-cd dotfiles.user
-```
-
-Add a user-specific profile for osx terminal:
-```
-cp Pro.user.terminal ~/
-```
+## After a full setup of dotfiles:
 
 Update ~/.aliases ls behavior a bit
 ```
@@ -29,6 +15,21 @@ Update ~/.bash_prompt PS1 base base
 ```
 # from export PS1="\u@\h:\w\\$ "
 export PS1="\u@\[$(tput sgr0)\]\[\033[0;32m\]\h\[$(tput sgr0)\]:\w\\$ "
+```
+
+## Clone this repo
+```
+git clone https://github.com/rhodesch/dotfiles.user.git
+```
+
+Move into the cloned directory:
+```
+cd dotfiles.user
+```
+
+Add a user-specific profile for osx terminal:
+```
+cp Pro.user.terminal ~/
 ```
 
 Importing the terminal profile:
