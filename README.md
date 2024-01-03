@@ -28,12 +28,8 @@ Also, set a Powerline compatable font:
 
 Preferences > Text > Font: "DejaVu Sans Mono for Powerline 12 pt."
 
-Add coreutils for consistent behvarior across systems. This is temp fix, might be better handled by installing coreutils in non-base conda env, link coreutils env to /opt/bin, and updating ~/.bashrc to look for /opt/bin/coreutils dir:
-```
-bash coreutils.sh
-```
 
-Add anaconda navigator env:
+Optional, add anaconda navigator env:
 
 I sometimes like using Spyder IDE for python coding, but the stand-alone installation can be problematic with my laptop. Since miniconda has already been installed using daler/dotfiles, we can add a new conda environment containing the Anaconda Navigator which is shipped with Spyder.
 
