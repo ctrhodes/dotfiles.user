@@ -5,7 +5,7 @@ This adds my preferences on top of Ryan Dale's dotfiles setup, [(see here)](http
 
 After a full setup of dotfiles, clone this repo
 ```
-git clone https://github.com/daler/dotfiles.git
+git clone https://github.com/rhodesch/dotfiles.user.git
 ```
 
 Replace init and config files with personal verions:
@@ -37,6 +37,3 @@ To create an anaconda env:
 ```
 bash anaconda-navigator.sh
 ```
-
-If using R, install 'lintR' package to default library location.
-
